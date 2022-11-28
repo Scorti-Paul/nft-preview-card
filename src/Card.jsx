@@ -17,16 +17,16 @@ const Card = () => {
         </div>
         <div>
           <div className='pt-4'>
-            <h1 className='text-white text-3xl  hover:text-cyan hover:cursor-pointer'>Equilibrium #3429</h1>
+            <h1 className='text-white text-[1.4rem]  hover:text-cyan hover:cursor-pointer'>Equilibrium #3429</h1>
             <p className='py-4 md:text-xl'>Our Equilibrium collection promotes balance and clam.</p>
             <div className='flex justify-between pt-3'>
-              <div className='flex gap-2'>
+              <div className='flex gap-2 w-[7.5rem]'>
                 <img src={ethereumIcon} alt="ethereum" />
-                <h3 className='text-cyan font-bold'>0.041ETH</h3>
+                <h3 className='text-cyan text-[1rem] font-bold'>0.041ETH</h3>
               </div>
-              <div className='flex gap-2 w-32'>
+              <div className='flex gap-2 w-[7.5rem]'>
                 <img src={clockIcon} alt="clock" />
-                <p>3 days left</p>
+                <p className='text-[1rem]'>3 days left</p>
               </div>
             </div>
           </div>

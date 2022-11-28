@@ -8,7 +8,7 @@
 
 @layer base {
   body {
-    @apply font-['Outfit'] text-[18px] h-screen
+    @apply font-['Outfit'] text-[18px]
   }
 
   p {
