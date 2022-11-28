@@ -4,3 +4,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base {
+  body {
+    @apply font-['Outfit'] text-[18px] h-screen
+  }
+
+  p {
+    @apply text-softblue
+  }
+}
